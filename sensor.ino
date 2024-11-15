@@ -3,7 +3,6 @@
 
 NewPing sonar(10, 11, 200);
 Servo myServo;
-
 const int trigPin = 10;
 const int echoPin = 11;
 const int servo = 9;
@@ -108,7 +107,6 @@ void loop() {
   if (millis() - timeSinceToggle > downtime) {
     digitalWrite(yellow, HIGH);
   }
-
 
   //for debugging
   Serial.print("Distance: ");
