@@ -3,7 +3,6 @@
 
 NewPing sonar(10, 11, 200);
 Servo myServo;
-
 const int trigPin = 10;
 const int echoPin = 11;
 const int servo = 9;
@@ -18,8 +17,6 @@ int minDist = 20;
 int red = 5;
 int green = 2;
 int yellow = 7;
-
-
 
 void setup() {
   // put your setup code here, to run once:
@@ -46,4 +43,3 @@ void loop() {
   delay(15);
   pos = angle;
 }
-
